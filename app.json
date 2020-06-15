@@ -1,11 +1,10 @@
 {
   "expo": {
-    "name": "mobile",
-    "slug": "mobile",
+    "name": "ecoleta",
+    "slug": "ecoleta",
     "platforms": [
       "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -23,6 +22,12 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "android": {
+      "package": "com.nlw2020.ecoleta",
+      "versionCode": 1
+    },
+    "description": "Aplicação ecoleta desenvolvida durante a Next Level Week da RocketSeat.  \nNeste projeto criamos uma aplicação onde é possível consultar os pontos de coleta de resíduos filtrando por tipo de coleta e localidade.",
+    "githubUrl": "https://github.com/muriloportugal/nlw-2020-mobile"
   }
 }
